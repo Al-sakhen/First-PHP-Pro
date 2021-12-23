@@ -15,7 +15,7 @@ if(!empty($_SESSION['user'])){
     header("LOCATION:  index.php");
 }
 
-if(isset($_POST['username'])){
+if(isset($_POST['username']) ){
 
     $userName = $_POST['username'];
     $email =$_POST['email'];
